@@ -1,0 +1,72 @@
+.header-login-signup{
+	/*background-color:#0F2E4C;*/
+	background:url("http://img09.deviantart.net/3b10/i/2012/166/0/d/blue_grey_grunge_texture_hd_background_by_rohynrajesh-d53juzl.jpg");
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+.header-login-signup .header-limiter {
+	max-width: 1200px;
+	
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header-login-signup .header-limiter h1{
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-login-signup .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-login-signup .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* Login/Sign up buttons */
+
+.header-login-signup .header-limiter ul {
+	font: 14px Arial, Helvetica, sans-serif;
+	list-style: none;
+	line-height: 1;
+	float: right;
+}
+
+.header-login-signup .header-limiter ul li {
+	display: inline-block;
+	margin-left: 15px;
+	opacity:0.9;
+}
+
+.header-login-signup .header-limiter ul li:hover{
+	opacity: 1;
+}
+
+/* The login button */
+
+.header-login-signup .header-limiter ul li:last-child a {
+	font-weight: bold;
+	background-color: #3a3c3e;
+	padding: 10px 15px;
+	border-radius: 3px;
+}
+
+/* For the headers to look good, be sure to reset the margin and padding of the body */
+
+body {
+	margin:0;
+	padding:0;
+}
